@@ -77,7 +77,7 @@ class HangmanGame {
     } else {
       try {
         var response = await http
-            .post("http://watchout4snakes.com/wo4snakes/Random/RandomWord");
+            .post("http://randomword.saasbook.info/RandomWord");
         word = response.body;
       } catch (e) {
         word = "error";
